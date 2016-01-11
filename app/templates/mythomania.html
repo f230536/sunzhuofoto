@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+{% block header %}
+<link rel="stylesheet" type="text/css" href="/static/css/mythomania.css" id="pagesheet"/>
+{% endblock %}
+
+{% block content %}
+  <div class="clearfix" id="page"><!-- column -->
+   <div class="position_content" id="page_position_content">
+        <a href="/index" class="clip_frame colelem" id="u1560"><!-- image -->        
+             <img class="block" id="u1560_img" src="/static/images/%e5%b1%8f%e5%b9%95%e5%bf%ab%e7%85%a7%202015-12-03%2013103628x22.jpg" data-hidpi-src="images/%e5%b1%8f%e5%b9%95%e5%bf%ab%e7%85%a7%202015-12-03%2013103628x22_2x.jpg" alt="" width="27" height="21"/>
+        </a>
+
+      
+
+        <div id='topic'>
+            <div class="clearfix colelem" id="title"><!-- content -->
+                <p>Mythomania</p>
+            </div>
+            
+            <div class="clearfix colelem" id="subtitle"><!-- content -->
+                 <p>Time never stops. And reality never ends.</p>
+            </div>
+        </div>
+    <div class="clearfix colelem" id="u273-10"><!-- content -->
+        <div class="show" id ='intro' >  
+            <p>Time, space and events, as I conceive, are in a drifting state. Time never stops. and reality never ends. And this sense is in a state of self&#45;reproduction and beyond words, whose cross sections are continuously captured and picked in the flow the vague consciousness. So my camera, like a knife, is used to cut it in, and to prove the existence of something deep&#45;rooted in my memories, from which I cannot possibly escape.</p>
+            <p>&nbsp;</p>
+            <p>To me, these photos and the consciousness are like the real life, and also like the outlet of another reality. It is more like the silver threads, extending from my temples, long and viscous. The moment I click the shutter, is a process I prove the existence of Ego. My cameras are the tools to discover and record Others who are willing to talk to me. I hope these images become Ego, and turn the Subject into Object, and turn Having into Becoming. Every photo describes the other life than mine, but it is actually me. They are my perspectives and my only belief left, depicting the track of my growth and the line between my eyes and morality. They are temporarily telling, like every person and every object, the transiency of time and space.</p>
+            <p>&nbsp;</p>
+            <p>These descriptions, as loose as the vague consciousness, are the dusts at the end of the threads of time. From them, I find myself.</p>
+        </div>
+
+        <div id='image-container'>
+            {% for image in smlImage %}
+                <div class="clearfix colelem img-next hide"><!-- content -->
+                    <a>Previous</a> / <a>Next Image</a> <span name='img-index'>&nbsp; ( {{loop.index}} of {{smlImage | length }})</span></p>
+                </div>
+                <img class = 'hide' src='/static/images/mythomania/{{image}}'> </img>
+            {% endfor %}
+        </div>
+
+    </div>
+     
+    <div id="next"><!-- content -->
+         <p class="clearfix colelem next" >&gt; NEXT</p>
+         <!-- <p class="clearfix colelem img-next" >Previous / Next image&nbsp; (1 of 20)</p> -->
+    </div>
+  
+    <div class="verticalspacer"></div>
+  </div>
+  <script src="static/js/slides.js"></script>
+{% endblock %}
+
