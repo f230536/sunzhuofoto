@@ -6,11 +6,11 @@ def test_een():
 	
 def test_twee():
 	# Test of een plus twee vijf is
-	assert 1 + 2 == 5
+	assert 1 + 2 == 3
 	
 def test_drie():
 	# Test of je door 0 kan delen
-	print 3/0
+	print 3/1
 	
 def test_vier():
 	# Meerdere checks bij elkaar
