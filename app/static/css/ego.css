@@ -1,7 +1,7 @@
 .version.ego /* version checker */
 {
-	color: #0000FA;
-	background-color: #835D71;
+	color: #0000E4;
+	background-color: #DC8287;
 }
 
 .html
@@ -33,14 +33,16 @@
 #u272-4
 {
 	z-index: 2;
-	width: 273px;
+	width: 345px;
 	min-height: 260px;
+	line-height: 19px;
 	color: #7F7F7F;
+	font-size: 16px;
 	text-align: justify;
 	font-family: dosis, sans-serif;
 	font-weight: 500;
-	margin-left: 344px;
-	margin-top: 102px;
+	margin-left: 307px;
+	margin-top: 64px;
 	position: relative;
 }
 
@@ -49,6 +51,7 @@
 	z-index: 6;
 	width: 84px;
 	margin-left: 438px;
+	margin-top: 38px;
 	position: relative;
 }
 

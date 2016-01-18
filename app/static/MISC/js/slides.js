@@ -20,17 +20,22 @@ for (var i= 0; i < img_btns.length; ++i)
 
 function clickOnNext(){
 	console.log('Next page')
-	console.log(intro.className)
+	// console.log(intro.className)
 	if( intro.className.indexOf('show') > -1)
 	{
 		intro.className = intro.className.replace('show', 'hide' )
-		topic.className+='hide'
+		topic.className = intro.className.replace('show', 'hide' )
+
+		// topic.className+=' hide'
+		// fade(topic)
 		unfade(img_select_btn[0])
 		if (images.length!= 0){
 			console.log("NONE")
 			unfade(images[0])
 		}
-		document.getElementById("next").className +='hide'
+		document.getElementById("next").className = document.getElementById("next").className.replace('show', 'hide' )
+
+
 		console.log('ADD Event')
 		
 
@@ -63,22 +68,34 @@ function clickOnPrevious(){
 	console.log('Previous page')
 
 	console.log(intro.className)
-	
+		
 	var pass = false
 	for (var i = images.length-1 ; i >=0; --i )
 	{
 		console.log(i)
-		if(images[i].className.indexOf('show') > -1 && i != 0)
+		if(images[i].className.indexOf('show') > -1)
 		{
 			fade(images[i])
 			setTimeout(function() {
 				img_select_btn[i].className= img_btns[i].className.replace('show','hide')	
 				images[i].className = images[i].className.replace('show', 'hide')
-				unfade(images[i-1])
-				img_select_btn[i-1].className= img_btns[i+1].className.replace('hide','show')
+				if (i == 0)
+				{
+					unfade(intro)
+					unfade(topic)
+					unfade(document.getElementById("next"))
+				}
+				else
+				{
+					unfade(images[i-1])
+					img_select_btn[i-1].className= img_btns[i+1].className.replace('hide','show')
+				}
 			},600);
 			break
-		}	
+		}
+
+			
+	
 	}
 	
 }

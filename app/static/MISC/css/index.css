@@ -1,0 +1,165 @@
+.version.index /* version checker */
+{
+	color: #0000F7;
+	background-color: #C30A52;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 141px;
+	min-height: 290px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 148px 391px 62px 428px;
+}
+
+.title
+{
+	text-align: center;
+	z-index: 14;
+	min-height: 33px;
+	line-height: 42px;
+	color: #FF0000;
+	/*font-size: 35px;*/
+	letter-spacing: 2px;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.projects
+{
+	text-align: center;
+	z-index: 22;
+	/*width: 96px;*/
+	color: #7F7F7F;
+	letter-spacing: 1px;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	margin-top: 9px;
+	position: relative;
+}
+
+#u245-4
+{
+	z-index: 26;
+	width: 84px;
+	min-height: 17px;
+	color: #7F7F7F;
+	letter-spacing: 1px;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	margin-left: 21px;
+	margin-top: 3px;
+	position: relative;
+}
+
+#u246-4
+{
+	z-index: 30;
+	width: 84px;
+	min-height: 19px;
+	color: #7F7F7F;
+	letter-spacing: 1px;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	margin-left: 21px;
+	margin-top: 21px;
+	position: relative;
+}
+
+#pu140-4
+{
+	/*width: 0.01px;*/
+	margin-left: 23px;
+	margin-top: 91px;
+}
+
+#u140-4
+{
+	z-index: 2;
+	width: 19px;
+	min-height: 16px;
+	line-height: 22px;
+	color: #000000;
+	font-size: 18px;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	position: relative;
+	margin-right: -10000px;
+}
+
+#u211-4
+{
+	z-index: 18;
+	width: 1px;
+	min-height: 21px;
+	font-size: 14px;
+	font-family: tulpen-one, sans-serif;
+	font-weight: 400;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 3px;
+	left: 27px;
+}
+
+#u141-4
+{
+	z-index: 6;
+	width: 33px;
+	min-height: 16px;
+	line-height: 22px;
+	color: #000000;
+	font-size: 18px;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	position: relative;
+	margin-right: -10000px;
+	left: 36px;
+}
+
+#u142-4
+{
+	z-index: 10;
+	width: 55px;
+	min-height: 17px;
+	line-height: 22px;
+	color: #000000;
+	font-size: 18px;
+	font-family: nova-mono, sans-serif;
+	font-weight: 400;
+	margin-left: 31px;
+	margin-top: 27px;
+	position: relative;
+}
+
+#u1327
+{
+	z-index: 34;
+	width: 71px;
+	margin-left: 15px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

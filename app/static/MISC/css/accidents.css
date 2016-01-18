@@ -1,0 +1,112 @@
+.version.accidents /* version checker */
+{
+	color: #0000F9;
+	background-color: #E2BA46;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 499.97499999999985px;
+	padding-bottom: 0px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	padding-bottom: 62px;
+}
+
+#u1563
+{
+	z-index: 33;
+	width: 27px;
+	position: relative;
+}
+
+#u312-4
+{
+	z-index: 18;
+	width: 111px;
+	min-height: 26px;
+	line-height: 31px;
+	color: #FF0000;
+	font-size: 26px;
+	letter-spacing: 1px;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	margin-left: 424px;
+	margin-top: 49px;
+	position: relative;
+}
+
+#u313-4
+{
+	z-index: 22;
+	width: 295px;
+	min-height: 16px;
+	line-height: 13px;
+	color: #7F7F7F;
+	font-size: 11px;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	font-style: italic;
+	margin-left: 364px;
+	top: -1px;
+	margin-bottom: -1px;
+	position: relative;
+}
+
+#u314-3
+{
+	z-index: 26;
+	width: 5px;
+	margin-left: 515px;
+	margin-top: 3px;
+	position: relative;
+}
+
+#u311-16
+{
+	z-index: 2;
+	width: 710px;
+	color: #7F7F7F;
+	text-align: justify;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	margin-left: 125px;
+	margin-top: 6px;
+	position: relative;
+}
+
+#u315-4
+{
+	z-index: 29;
+	width: 39px;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	margin-left: 901px;
+	margin-top: 141px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+

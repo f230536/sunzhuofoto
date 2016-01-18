@@ -1,0 +1,67 @@
+.version.ego /* version checker */
+{
+	color: #0000FA;
+	background-color: #835D71;
+}
+
+.html
+{
+	background-color: #FFFFFF;
+}
+
+#page
+{
+	z-index: 1;
+	width: 960px;
+	min-height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#page_position_content
+{
+	padding-bottom: 62px;
+}
+
+#u1428
+{
+	z-index: 8;
+	width: 27px;
+	position: relative;
+}
+
+#u272-4
+{
+	z-index: 2;
+	width: 273px;
+	min-height: 260px;
+	color: #7F7F7F;
+	text-align: justify;
+	font-family: dosis, sans-serif;
+	font-weight: 500;
+	margin-left: 344px;
+	margin-top: 102px;
+	position: relative;
+}
+
+#u1399
+{
+	z-index: 6;
+	width: 84px;
+	margin-left: 438px;
+	position: relative;
+}
+
+body
+{
+	position: relative;
+	min-width: 960px;
+	padding-top: 36px;
+	padding-bottom: 36px;
+}
+
+#page .verticalspacer
+{
+	clear: both;
+}
+
